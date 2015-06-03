@@ -22,7 +22,7 @@ public class PopPlatform : MonoBehaviour {
 			if(Input.GetButtonDown ("Jump")){
 				pc.disableHorizental ();
 				if(right){	
-					target.rigidbody2D.velocity = new Vector2(-10f,7f)
+					target.rigidbody2D.velocity = new Vector2(-10f,7f);
 				}else if(left){
 					target.rigidbody2D.velocity = new Vector2(+10f,7f);
 				}
