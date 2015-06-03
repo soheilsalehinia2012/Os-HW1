@@ -3,6 +3,7 @@ using System.Collections;
 
 public class WrappingFloor : MonoBehaviour {
 
+	public float sec = 2f;
 	// Use this for initialization
 	void Start () {
 	
@@ -20,7 +21,7 @@ public class WrappingFloor : MonoBehaviour {
 	}
 
 	IEnumerator StableWait(){
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (sec);
 		Destroy (gameObject);
 		//print ("in");
 	}

@@ -10,7 +10,7 @@ public class Above : MonoBehaviour {
 	private	float PlayerdeltaX;
 	private BoxCollider2D bc;
 	private bool flag = false;
-	private float sPlatSpeed;
+//	private float sPlatSpeed;
 	
 	// Use this for initialization
 	void Start () {
@@ -29,12 +29,12 @@ public class Above : MonoBehaviour {
 				flag = false;
 			}
 			if(sPlat){
-				sPlatSpeed = sPlat.rigidbody2D.velocity.x;
+				//sPlatSpeed = sPlat.rigidbody2D.velocity.x;
 			}
 			//print (sPlatSpeed);
 		}
 		
-		sPlatSpeed = sPlat.rigidbody2D.velocity.x;
+		//sPlatSpeed = sPlat.rigidbody2D.velocity.x;
 
 		
 	}
